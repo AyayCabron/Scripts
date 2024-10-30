@@ -1,0 +1,25 @@
+# Call Metrics
+
+**Call Metrics** é um projeto que analisa dados de chamadas telefônicas e fornece insights sobre padrões de comunicação, incluindo duração das chamadas, horários de pico, e frequência de chamadas. O objetivo é ajudar a entender melhor o comportamento das chamadas e otimizar o atendimento ao cliente ou as operações de vendas.
+
+## Funcionalidades
+
+- Carrega dados de chamadas de um arquivo CSV ou Excel.
+- Limpa e processa os dados para análise.
+- Gera métricas de chamadas, como duração média, número total de chamadas, e chamadas por hora.
+- Visualiza dados de chamadas em gráficos, facilitando a identificação de tendências.
+- Permite a exportação dos resultados para relatórios em formato CSV ou Excel.
+
+## Tecnologias Utilizadas
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+## Pré-requisitos
+
+Antes de executar o código, certifique-se de ter as seguintes bibliotecas instaladas:
+
+```bash
+pip install pandas matplotlib seaborn
