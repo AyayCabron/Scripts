@@ -1,0 +1,32 @@
+# AnaliseDeVendas
+
+**AnaliseDeVendas** é um projeto que analisa dados de vendas de roupas e prevê quantidades vendidas utilizando técnicas de regressão linear e árvore de decisão. O código carrega dados de vendas de um arquivo Excel, processa e visualiza as informações, e realiza previsões sobre as vendas mensais de diferentes produtos.
+
+## Funcionalidades
+
+- Carrega dados de vendas de um arquivo Excel.
+- Limpa e transforma os dados para facilitar a análise.
+- Agrupa dados por mês e produto, somando as quantidades vendidas.
+- Visualiza as vendas totais por mês e produto usando gráficos.
+- Realiza análise de regressão linear para prever vendas mensais por produto.
+- Cria uma árvore de decisão para prever a quantidade de vendas com base nos dados de vendas mensais.
+- Avalia e exibe as métricas de desempenho dos modelos de previsão.
+
+## Tecnologias Utilizadas
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Pré-requisitos
+
+Antes de executar o código, certifique-se de ter as seguintes bibliotecas instaladas:
+
+```bash
+pip install pandas matplotlib seaborn scikit-learn openpyxl
+
+
+
+
